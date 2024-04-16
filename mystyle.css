@@ -107,13 +107,13 @@
 
 /* Float columns side by side */
 .column {
-  float: right;
+  float: left;
   width: 25%;
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+.row {}
 
 /* Clear floats after the columns */
 .row:after {
